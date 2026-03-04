@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flavour-The Future of Food</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar">
@@ -19,29 +19,54 @@
 
     <section id="home" class="section hero">
         <h1>Flavour - The Future is Food</h1>
-        <p>Flavuor is a company that is working to improve the way food is created and distributed around the world.</p>
-        <p>They use modern technology like artificial intelligence and new food production methods to make food systems better.</p>
-        <p>Our mission is to make ultra-low cost meals accessible and ensure no one goes to bed hungry.</p>
+        <p>Creating smart, sustainable meals using AI, biotechnology, and alternative proteins.</p>
+        <button onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">Contact Us</button>
+    </section>
     </section>
 
-    <section id="about" class="section about">
+     <section id="about" class="section about">
         <h2>About Us</h2>
-        <p>Flavuor believes that food is a basic human need. The company focuses on building its own system for producing and delivering food in a smarter and more efficient way.</p>
+        <p>Flavuor believes that food is a basic human need.</p>
+        <p>The company focuses on building its own system for producing and delivering food in a smarter and more efficient way.</p>
+        <p>Instead of following traditional food production methods,Flavuor uses advanced toold such as artificial intelligenge ,biotechnology software systems and alternative protein development.</p>
+        <p>These technologies help improve efficiency, redude waste and lower food cost.</p>
+        <p>By creating a full ecosystem around food production, Flavuor aim to deliver affordable, scalable and sustainable food solutions.</p>
+        <p>Their mission is to change the future of food by making it smarter, more accessible, and better for communtities around the world.</p>
     </section>
 
+    <section id="features" class="section features">
+        <h2>Our Features</h2>
+        <div class="feature-cards">
+            <div class="card">
+                <img src="images/ai.png" alt="AI Icon">
+                <h3>AI-Powered Production</h3>
+                <p>We use AI to optimize food creation and reduce waste.</p>
+            </div>
+            <div class="card">
+                <img src="images/leaf.png" alt="Leaf Icon">
+                <h3>Alternative Proteins</h3>
+                <p>Developing sustainable and affordable plant-based and lab-grown proteins.</p>
+            </div>
+            <div class="card">
+                <img src="images/factory.png" alt="Factory Icon">
+                <h3>Full Food Ecosystem</h3>
+                <p>From production to distribution, we manage the full chain efficiently.</p>
+            </div>
+        </div>
+    </section>
 
     <section id="contact" class="section contact">
         <h2>Contact Us</h2>
-
-        <form>
+    <form id="contact-form">
             <input type="text" id="name" placeholder="Your Name">
             <input type="email" id="email" placeholder="Your Email">
             <textarea id="message" placeholder="Your Message"></textarea>
             <button type="submit">Send Message</button>
-            <p id="form-message"></p>
+             <p id="form-message"></p>
         </form>
     </section>
 
-    <script src="js.script.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/validation.js"></script>
 </body>
 </html>
